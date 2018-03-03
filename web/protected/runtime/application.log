@@ -1,0 +1,73 @@
+2018/03/03 12:34:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/index.php/site/login
+---
+2018/03/03 12:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/site/index
+---
+2018/03/03 12:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/site/index/sdjfkhdsf
+---
+2018/03/03 12:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/site/index/sdjfkhdsf
+---
+2018/03/03 12:44:34 [error] [php] Object of class CHttpRequest could not be converted to string (C:\OSPanel\domains\yii1\web\protected\views\site\index.php:9)
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\OSPanel\domains\yii1\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\OSPanel\domains\yii1\web\protected\controllers\SiteController.php(32): SiteController->render()
+#3 unknown(0): SiteController->actionIndex()
+#4 C:\OSPanel\domains\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\OSPanel\domains\yii1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\OSPanel\domains\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\OSPanel\domains\yii1\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\OSPanel\domains\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\OSPanel\domains\yii1\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index/
+in C:\OSPanel\domains\yii1\web\protected\views\site\index.php (9)
+in C:\OSPanel\domains\yii1\web\protected\controllers\SiteController.php (32)
+in C:\OSPanel\domains\yii1\web\index.php (13)
+2018/03/03 12:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/site/index/
+---
+2018/03/03 12:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\OSPanel\domains\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OSPanel\domains\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\OSPanel\domains\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yii1\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test/site/index/
+---
